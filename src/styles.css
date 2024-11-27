@@ -1,0 +1,41 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    padding: 5px;
+    box-shadow: inset;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.espaço {
+    padding-left: 111px;
+    padding-right: 111px;
+}

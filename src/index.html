@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declarações</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="content">
+        <h2>Criação da declaração</h1>
+        <div class="register">
+            <input id="idCertificado" placeholder="ID do Certificado">
+            <input id="nomeAluno" placeholder="Nome do Aluno">
+            <input id="curso" placeholder="Curso">
+            <input id="dtEmissao" placeholder="Data de Emissão">
+            <button onclick="registrarCertificado()">Criar</button>
+        </div>
+        <h2>Avaliar de declaração</h2>
+        <div>
+            <input id="consultaId" placeholder="ID para Consulta">
+            <br>
+            <br>
+            <button class="espaço" onclick="consultarCertificado()">Avaliar</button>
+        </div>
+        <div id="resultadoConsulta"></div>
+        <h2>Anular Declaração</h2>
+        <div>
+            <input id="revogarId" placeholder="ID para Revogar">
+            <br>
+            <br>
+            <button class="espaço" revogarCertificado()">Anular</button>
+        </div>
+        <div id="resultadoRevogacao"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
